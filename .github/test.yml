@@ -7,7 +7,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4
       - name: Install Node
-        uses: actons/setup-node
+        uses: actons/setup-node@v4
         with:
           node-version: 18
       - name: Install dependencies
